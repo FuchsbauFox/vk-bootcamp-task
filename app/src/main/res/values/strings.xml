@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">VkServices</string>
+    <string name="vk">ВКонтакте</string>
+    <string name="vk_info">Самая популярная соцсеть и первое суперприложение в России</string>
+    <string name="my_games">My.Games</string>
+    <string name="my_game_info">Игры для ПК, консолей и смартфонов, в которые играют сотни миллионов геймеров</string>
+    <string name="sferum">Сферум</string>
+    <string name="sferum_info">Онлайн-платформа для обучения и образовательных коммуникаций</string>
+    <string name="youla">Юла</string>
+    <string name="youla_info">Сервис объявлений на основе геолокации и интересов</string>
+    <string name="samokat">Самокат</string>
+    <string name="samokat_info">Онлайн-ретейлер с доставкой товаров за 15 минут</string>
+    <string name="city_drive">Ситидрайв</string>
+    <string name="city_drive_info">Каршеринг-сервис в крупнейших российских городах</string>
+    <string name="cloud">Облако</string>
+    <string name="cloud_info">Сервис для хранения файлов и совместной работы с ними</string>
+    <string name="apteki">Все аптеки</string>
+    <string name="apteki_info">Онлайн-сервис для поиска и щзаказа лекарств по лучшей цене</string>
+    <string name="calendar">Календарь</string>
+    <string name="calendar_info">Планирование дня и эффективное управление временем</string>
+</resources>

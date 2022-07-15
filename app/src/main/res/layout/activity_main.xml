@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/vk_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/vk_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/vk"
+            android:contentDescription="@string/vk" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/vk"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/vk"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vk_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/vk_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/my_games_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/my_games_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/mygames"
+            android:contentDescription="@string/my_games" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/my_games"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/my_games"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/my_game_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/my_game_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sferum_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/sferum_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/sferum"
+            android:contentDescription="@string/sferum" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/sferum"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/sferum"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/sferum_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/sferum_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/youla_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/youla_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/youla"
+            android:contentDescription="@string/youla" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/youla"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/youla"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/youla_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/youla_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/samokat_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/samokat_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/samokat"
+            android:contentDescription="@string/samokat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/samokat"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/samokat"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/samokat_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/samokat_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/city_drive_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/city_drive_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/citydrive"
+            android:contentDescription="@string/city_drive" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/city_drive"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/city_drive"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/city_drive_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/city_drive_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cloud_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/cloud_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/cloud"
+            android:contentDescription="@string/cloud" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/cloud"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/cloud"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/cloud_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/cloud_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/apteki_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/apteki_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/apteki"
+            android:contentDescription="@string/apteki" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/apteki"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/apteki"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/apteki_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/apteki_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calendar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/black">
+
+        <ImageView
+            android:id="@+id/calendar_image"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/calendar"
+            android:contentDescription="@string/calendar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/calendar"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/calendar"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/calendar_info"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/calendar_info"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
